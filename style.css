@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair:ital,wght@0,400;0,800;1,400;1,800&display=swap');
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Playfair', serif;
+  font-size: 20px;
+  line-height: 140%;
+  padding: 40px 40px 104px 40px;
+}
+h1, h2 {
+  font-weight: 600;
+  margin-bottom: 1em;
+}
+h1 {
+  font-size: 60px;
+}
+
+h2 {
+  font-size: 48px;
+}
+
+p {
+  margin-bottom: 1em;
+}
+
+b, strong {
+  font-weight: 600;
+}
+
+em. i {
+  font-style: italic;
+}
+
+a:hover {
+  color: red;
+}
+
+a {
+  color: blue;
+  text-decoration: none;
+}
+
+blockquote {
+  background-color: lightgray;
+  padding: 40px;
+  margin-bottom: 1em;
+  border-radius: 20px;
+}
+
+.cite {
+  background-color: lightgray;
+  padding: 40px;
+  margin-bottom: 1em;
+  border-radius: 20px;
+}
+
+ol, ul {
+  margin-left: 20px;
+  margin-bottom: 1em;
+}
+
+ol {
+  list-style: decimal;
+}
+
+ul {
+  list-style: disc;
+}
+
+ul ul, ul ol, ol ul, ol ol {
+  margin-bottom: 0;
+}
+
+#img1 {
+  width: 300px;
+  border-radius: 20px;
+}
+
+.first {
+  position: fixed;
+  background-color: white;
+  background-image: url();
+  height: 64px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.second {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  right: 5px;
+  bottom: 5px;
+  background-color: white;
+  border-radius: 10px;
+  border: 2px solid black;
+  text-align: center;
+  line-height: 44px;
+}
+
+.block {
+  position: fixed;
+  background-color: pink;
+  width: 200px;
+  height: 200px;
+  top: 50%;
+  left: 50%;
+  margin-right: -100%;
+  margin-bottom: -100%;
+  transform: translate(-50%, -50%);
+  border: 2px dashed blue;
+  border-radius: 20px;
+}
